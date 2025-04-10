@@ -1,0 +1,36 @@
+.scoreboard {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 24px;
+    border-radius: 16px;
+    background: #f7f9fa;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+  }
+  .batsmen {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  .batsman-box, .bowler-box {
+    background: #ffffff;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    margin: 10px;
+    flex: 1;
+  }
+  .controls button {
+    margin: 6px;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: #00bfa6;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  .controls button:hover {
+    background-color: #009e8b;
+  }  
